@@ -37,6 +37,7 @@ class Post extends Component {
               <Link to="/feed" className="btn btn-light mb-3">
                 Back to Feed
               </Link>
+              {postContent}
             </div>
           </div>
         </div>
